@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAYE | Jewellery Catalogue</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero hero-banner">
+        <nav>
+            <img src="logo.png" alt="FAYE Logo" class="logo" />
+            <div>
+                <a href="#catalogue">Catalogue</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="hero-banner-content">
+            <h1 class="brand-title">FAYE</h1>
+            <h2 class="banner-title">Feel the Luxury. Define your Signature.</h2>
+            <p class="banner-desc">Artisan-crafted. Ethically-sourced. Exclusively designed.</p>
+            <a href="#catalogue" class="cta-btn animate-zoom">View Catalogue</a>
+        </div>
+    </header>
+
+    <section id="catalogue" class="catalogue-section">
+        <h2>Featured Collection</h2>
+        <div id="productGrid" class="product-grid"></div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About FAYE</h2>
+        <p>
+            FAYE brings together over 30 years of expertise to craft contemporary luxury jewellery with unmatched attention to detail, ethical sourcing, and timeless design. Every piece is a reflection of your individuality.
+        </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 FAYE. Crafted with passion.</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
